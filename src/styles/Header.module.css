@@ -1,0 +1,50 @@
+body {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -400px;
+  height: 100vh;
+}
+
+body::after {
+  content: "";
+  background-color: rgba(11, 11, 11, 0.5);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeIn 3s ease-out forwards;
+  color: #fff;
+  animation: fadeOut 3s ease-out forwards;
+}
+
+.logo.fadeOut {
+  display: none;
+  animation: fadeOut 3s ease-out forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "Franco",
+    "title": "Nature Album",
+    "photo": "https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Beautiful Sunset",
+    "likes": 15,
+    "comments": 7,
+    "reposts": 5
+  },
+  {
+    "id": 2,
+    "username": "Alice",
+    "title": "Funny Cats",
+    "photo": "https://images.pexels.com/photos/1643456/pexels-photo-1643456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Check out these adorable cats!",
+    "likes": 23,
+    "comments": 12,
+    "reposts": 8
+  },
+  {
+    "id": 3,
+    "username": "Bob",
+    "title": "Beautiful Landscape",
+    "photo": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Amazing view!",
+    "likes": 30,
+    "comments": 10,
+    "reposts": 6
+  },
+  {
+    "id": 4,
+    "username": "Charlie",
+    "title": "Family",
+    "photo": "https://images.pexels.com/photos/1037989/pexels-photo-1037989.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Family Vacation with my beloved people. #family #vacation",
+    "likes": 18,
+    "comments": 5,
+    "reposts": 3
+  },
+  {
+    "id": 5,
+    "username": "Eve",
+    "title": "Delicious Food",
+    "photo": "https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Yummy!",
+    "likes": 25,
+    "comments": 8,
+    "reposts": 4
+  },
+  {
+    "id": 6,
+    "username": "Grace",
+    "title": "Relaxing",
+    "photo": "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "I will never forget these days!! #spiritual #viral",
+    "likes": 20,
+    "comments": 6,
+    "reposts": 4
+  },
+  {
+    "id": 7,
+    "username": "David",
+    "title": "Never Give Up",
+    "photo": "https://images.pexels.com/photos/2204196/pexels-photo-2204196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Getting gains with my gym bro. #gym #athlete #weights",
+    "likes": 28,
+    "comments": 9,
+    "reposts": 5
+  }
+]

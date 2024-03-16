@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "username": "NFP",
+    "title": "NFP Reports",
+    "photo": "https://images.pexels.com/photos/2872418/pexels-photo-2872418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": " A daring thief wearing a ski mask has robbed a local jewelry store in broad daylight, fleeing with bags of stolen goods worth thousands.",
+    "likes": 15,
+    "comments": 7,
+    "reposts": 5
+  },
+  {
+    "id": 2,
+    "username": "Daily Health",
+    "title": "Virus",
+    "photo": "https://images.pexels.com/photos/3970330/pexels-photo-3970330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Virus cases soar, hospitals overwhelmed.",
+    "likes": 23,
+    "comments": 12,
+    "reposts": 8
+  },
+  {
+    "id": 3,
+    "username": "SportNews",
+    "title": "He scores again",
+    "photo": "https://images.pexels.com/photos/1884574/pexels-photo-1884574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Amazing view! We have the hero. Will they raise the cup? #pl",
+    "likes": 30,
+    "comments": 10,
+    "reposts": 6
+  },
+  {
+    "id": 4,
+    "username": "All Coin",
+    "title": "Inflation",
+    "photo": "https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Inflation begins? #shocking #stocks #inflation",
+    "likes": 18,
+    "comments": 5,
+    "reposts": 3
+  },
+  {
+    "id": 5,
+    "username": "View A.R.M.Y",
+    "title": "From the Battlefield",
+    "photo": "https://images.pexels.com/photos/78783/submachine-gun-rifle-automatic-weapon-weapon-78783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Are we close to self-destruction? #war",
+    "likes": 25,
+    "comments": 8,
+    "reposts": 4
+  },
+  {
+    "id": 6,
+    "username": "Urban News",
+    "title": "Riot Broke Out",
+    "photo": "https://images.pexels.com/photos/270220/pexels-photo-270220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Crowd has become uncontrollable, cities are burning! #news",
+    "likes": 80,
+    "comments": 7,
+    "reposts": 78
+  },
+  {
+    "id": 7,
+    "username": "Positive News",
+    "title": "Sun raises again",
+    "photo": "https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "We get a new day to live, be happy. #positive #vibes",
+    "likes": 125,
+    "comments": 70,
+    "reposts": 99
+  }
+]

@@ -1,0 +1,552 @@
+.postContainer {
+  max-width: 500px;
+  margin: auto;
+  padding: 18px;
+  border-radius: 5px;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.postAuthor {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.postImage {
+  max-width: 480px;
+  max-height: 480px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.postDescription {
+  color: #eee;
+}
+
+.postActions {
+  display: flex;
+  align-items: center;
+}
+
+.postActions span {
+  color: #fff;
+}
+
+.postActions div {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.iconWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.postsWrapper {
+  position: relative;
+}
+
+.arrowLeft {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.arrowRight {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.profileSection {
+  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+}
+
+.profileWrapper {
+  height: 100%;
+  position: relative;
+}
+
+.profileWrapper ul li {
+  list-style: none;
+  width: fit-content;
+  padding: 0.5em 0.7em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.profileWrapper ul li:hover {
+  background-color: rgba(21, 7, 7, 0.171);
+}
+
+.profileWrapper ul {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: #fff;
+}
+
+.LeftLogo {
+  height: 50px;
+  cursor: pointer;
+}
+
+.Logout {
+  position: absolute;
+  bottom: 24px;
+}
+
+.profileSection {
+  transition: transform 0.3s ease;
+}
+
+.hidden {
+  transform: translateX(-100%);
+}
+
+.visible {
+  transform: translateX(0);
+}
+
+.toggleButton {
+  position: absolute;
+  right: -70px;
+  bottom: 20px;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 0.8em;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 200px 1fr 170px;
+  gap: 20px;
+}
+
+.leftContainer,
+.postContainer {
+  padding: 18px;
+}
+
+.leftContainer {
+  grid-column: 1 / 2;
+}
+
+.postContainer {
+  grid-column: 2 / 3;
+}
+
+.extraDiv {
+  grid-column: 3 / 4;
+}
+
+.RightMainContainer {
+  margin-top: 20px;
+}
+
+.RightMainContainer ul {
+  color: #fff;
+}
+
+.RightMainContainer ul li {
+  list-style: none;
+}
+
+.Media,
+.Action {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.Media li,
+.Action li {
+  padding-left: 2px;
+  text-align: center;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.Media li:hover,
+.Action li:hover {
+  color: rgba(220, 204, 204, 0.599);
+}
+
+.Media span,
+.Action span {
+  font-size: 20px;
+  color: rgb(169, 169, 169);
+}
+
+.Action span {
+  margin-top: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.videoContainer {
+  max-width: 600px;
+  margin: auto;
+  padding: 18px;
+  border-radius: 5px;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+}
+
+.videoTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.videoAuthor {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.videoElement {
+  max-width: 480px;
+  max-height: 480px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.videoDescription {
+  color: #eee;
+}
+
+.videoActions {
+  display: flex;
+  align-items: center;
+}
+
+.videoActions span {
+  color: #fff;
+}
+
+.videoActions div {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.iconWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navigation {
+  position: relative;
+}
+
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: -170px;
+  cursor: pointer;
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.arrowLeft {
+  left: -70px;
+}
+
+.arrowRight {
+  right: -70px;
+}
+
+.noSavedPosts {
+  color: white;
+  margin-top: 1.5em;
+  font-size: 24px;
+}
+
+.CreateContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.CreateWrapper {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 5em;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createTextarea {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: none;
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  line-height: 1.5;
+  overflow-y: auto;
+}
+
+.createSmileIcon {
+  position: absolute;
+  bottom: 155px;
+  right: 90px;
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.createButton {
+  width: 80%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.createButton:hover {
+  background-color: #0056b3;
+}
+
+.MainText {
+  font-size: 30px;
+  color: #fff;
+}
+
+.CreateWrapper p {
+  color: #fff;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.createContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+}
+
+.createContainer p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.postsContainer {
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  padding: 3em;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.postText {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.iconsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.iconsText {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.MyPostsText {
+  color: #fff;
+}
+
+.iconsWrapper div {
+  display: flex;
+}
+
+.icons {
+  color: #fff;
+}
+
+.previewImage {
+  height: 200px;
+}
+
+.createFileInput {
+  position: absolute;
+  bottom: 40px;
+  color: #fff;
+}
+
+.postedImage {
+  height: 300px;
+  margin-bottom: 1em;
+}
+
+.settingsContainer {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.settingsUploadBox {
+  width: fit-content;
+  padding: 3.2em 1em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.settingsInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.settingsInputField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+}
+
+.settingsChangePassword {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.settingsAccountDeletion {
+  grid-column: 1 / -1;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.settingsDeleteAccountButton {
+  background: rgb(246, 2, 2);
+  transition: all 0.15s;
+}
+
+.settingsDeleteAccountButton:hover {
+  background: rgb(224, 3, 3);
+}
+
+.settingsAccountDeletion {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.settingsUploadText {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.203);
+  padding: 20px;
+  cursor: pointer;
+}
+
+.settingsUploadImage {
+  color: #fff;
+  height: 150px;
+}
+
+.userProfilePhoto {
+  height: 200px;
+}
+
+.middleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.userProfile {
+  background-color: rgba(111, 111, 111, 0.242);
+  backdrop-filter: blur(10px);
+  padding: 4em;
+  border-radius: 12px;
+}

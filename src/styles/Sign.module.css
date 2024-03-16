@@ -1,0 +1,89 @@
+.inputField {
+  border: none;
+  padding: 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
+  background: none;
+  transition: border-color 0.3s ease;
+  color: #fff;
+}
+
+.InputContainer {
+  margin-bottom: 20px;
+}
+
+.InputBackground {
+  position: relative;
+}
+
+.InputBackground p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  transition: all 0.3s;
+  pointer-events: none;
+  padding-left: 1em;
+  color: #fff;
+}
+
+.labelFocused {
+  transform: translateY(-0.8em) translateX(-0.7em);
+  font-size: 0.8em;
+  color: #555;
+  outline: none;
+  color: white;
+}
+
+.InputBackground button {
+  width: 100%;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 1em;
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.InputBackground button:hover {
+  background: white;
+  color: black;
+}
+
+.InputBackground button:active {
+  transform: translateY(1px);
+}
+
+.Help {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.Help div {
+  cursor: pointer;
+}
+
+.invalid {
+  box-shadow: 2px 0 0 rgb(255, 0, 0);
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  25%,
+  75% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+}
